@@ -1,0 +1,52 @@
+.big_image{
+    width:250px;
+}
+.heading{
+    width:100%;
+    margin:0;
+}
+.heading h3{
+    display:inline;
+}
+.heading button{
+    float: right;
+}
+button:focus{
+    outline: none !important;
+}
+h4{
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    line-height: 2;
+    color:white;
+    margin: 0px;
+}
+a{
+    color: aqua;
+}
+a:hover{
+    color: rgb(6, 196, 196);
+    text-decoration: none;
+}
+.close{
+    background-color: red !important;
+    opacity: 0.8;
+    width: 30px;
+    margin-top: 6px !important;
+    margin-right: 6px;
+    text-shadow: none;
+}
+.close:focus, .close:hover {
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 1;
+}
+.Instruction_img{
+    display:inline-block;
+    width:50%;
+    height: 180px;
+}
+.modal-body{
+    width:600px;
+    height: 600px;
+}
